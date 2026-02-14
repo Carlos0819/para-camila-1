@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Solecito ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Pantalla de intro -->
+        <div class="intro-screen" id="introScreen">
+            <div class="intro-hearts">
+                <span>💕</span><span>💖</span><span>💗</span>
+            </div>
+            <h1 class="intro-title">Para el amor de mi vida</h1>
+            <p class="intro-subtitle">Un pequeño detalle de mi corazón para tí mi solecito</p>
+            <button class="btn-start" id="btnStart">✨ Dale click amorcito ✨</button>
+        </div>
+        
+        <!-- Contenido principal -->
+        <div class="main-content" id="mainContent">
+            <div class="content-wrapper">
+                <!-- Panel de texto a la izquierda -->
+                <div class="text-panel">
+                    <div class="text-content">
+                        <h1 class="title">Para mi solecito:</h1>
+                        <div class="message" id="typedMessage"></div>
+                        <div class="signature" id="signature"></div>
+                    </div>
+                    
+                    <!-- Contador debajo del texto -->
+                    <div class="time-counter">
+                        <p class="counter-label">Mi amor por ti comenzó hace...</p>
+                        <div class="counter-display">
+                            <span id="days">0</span> días
+                            <span id="hours">0</span> horas
+                            <span id="minutes">0</span> minutos
+                            <span id="seconds">0</span> segundos
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Árbol a la derecha -->
+                <div class="tree-container">
+                    <img src="arbol.gif" alt="Árbol de corazones" class="tree-gif" id="treeGif">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
